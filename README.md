@@ -41,9 +41,9 @@ In this course we address the fundamentals of Relational and Non Relational Data
     - 2F
     - 3F
     - 4F
-    - MySQL
-    - DDL/DML (SQL)
-    - Queries
+- MySQL
+  - DDL/DML (SQL)
+  - Queries
 - Non Relational Databases
   - Collections and Documents
   - Firebase/Firestore
