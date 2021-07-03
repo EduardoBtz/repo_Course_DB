@@ -3,27 +3,58 @@ In this course we address the fundamentals of Relational and Non Relational Data
 
 
 # Course Content
->[Project database structure](#project-database-structure)\
+>[General project database structure](#general-project-database-structure)\
 [Subjects](#Subjects)
 
-## Project database structure
-
+## General Project Database Structure
 
 | Users      | 
 | -----------| 
-| id INT(PK) <br> login VARCHAR(30) NN | 
+| id <br> login <br> password <br> nickname <br> email| 
+
+
+| Posts      | 
+| -----------| 
+| id <br> title <br> date_published <br> content <br> status <br> users <br> categories| 
+
+| Categories      | 
+| -----------| 
+| id <br> category|
+
+| Commentaries      | 
+| -----------| 
+| id <br> commentary <br> user_id <br> post_id|  
+
+| Tags      | 
+| -----------| 
+| id <br> tag_name | 
+
 
 
 ## Subjects
 - DB History
 - ER Diagrams
-- Cardinalities
-- DB normalization
-  - 1F
-  - 2F
-  - 3F
-  - 4F
-
+- Relational Databases
+  - Cardinalities
+  - DB normalization
+    - 1F
+    - 2F
+    - 3F
+    - 4F
+    - MySQL
+    - DDL/DML (SQL)
+    - Queries
+- Non Relational Databases
+  - Collections and Documents
+  - Firebase/Firestore
+- DB real life applications
+  - Big Data
+  - Data Warehouse
+  - Data Mining
+  - ETL
+  - Business Intelligence
+  - Machine Learning
+  - Data Science
 
 
 ### Elaborated by
